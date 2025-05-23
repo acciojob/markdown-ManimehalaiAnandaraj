@@ -1,12 +1,36 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+.app{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.markdown-container{
+    display: flex;
+    height: 80vh;
+    gap: 20px;
+}
+
+.textarea{
+    flex: 1;
+    padding: 10px;
+    font-family: monospace;
+    border: 1px solid black;
+    border-radius: 4px;
+    resize: none;
+}
+.preview{
+    flex: 1;
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 4px;
+     overflow-y: auto;
+
+}
+.loading{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ffeb3b;
+    padding: 10px;
+    border-radius: 4px;
 }
