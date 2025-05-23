@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import marked from 'markdown-it';
+import marked from 'marked';
 
 const MarkdownEditor = () => {
     const [markdown,setMarkdown] = useState('#Hello World');
